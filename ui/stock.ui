@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1091</width>
+    <height>811</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tab5_tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1071</width>
+      <height>740</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1300</width>
+      <height>740</height>
+     </size>
+    </property>
+    <property name="toolTip">
+     <string extracomment="06:최유리지정가 "/>
+    </property>
+    <property name="statusTip">
+     <string extracomment="06:최유리지정가 "/>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_base_info">
+     <attribute name="title">
+      <string>기본정보</string>
+     </attribute>
+     <widget class="QTableWidget" name="tb1_tableWidget_stock_target_info_list01">
+      <property name="geometry">
+       <rect>
+        <x>6</x>
+        <y>80</y>
+        <width>331</width>
+        <height>611</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab1_label_stock_target_name_01">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>대상 종목</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab2_label_stock_order_2">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>50</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주문 출력</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="tb1_textBrowser_stock_send_order">
+      <property name="geometry">
+       <rect>
+        <x>347</x>
+        <y>80</y>
+        <width>351</width>
+        <height>611</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="tb1_textBrowser_stock_buy_sell_success_view">
+      <property name="geometry">
+       <rect>
+        <x>708</x>
+        <y>80</y>
+        <width>351</width>
+        <height>611</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab2_label_stock_name_7">
+      <property name="geometry">
+       <rect>
+        <x>728</x>
+        <y>50</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>매매 처리완료</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tb1_pushButton_stock_auto_order_start">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>111</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>자동 매매 실행</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="tb1_textEdit_stock_deposit_view">
+      <property name="geometry">
+       <rect>
+        <x>939</x>
+        <y>4</y>
+        <width>121</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhMultiLine</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab2_label_stock_name_34">
+      <property name="geometry">
+       <rect>
+        <x>886</x>
+        <y>7</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>예수금액</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tb1_pushButton_stock_auto_sell_order_start">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>2</y>
+        <width>71</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>예수금 조회</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab2_label_stock_name_35">
+      <property name="geometry">
+       <rect>
+        <x>207</x>
+        <y>13</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>익절</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="tb1_textEdit_sell_win_rate">
+      <property name="geometry">
+       <rect>
+        <x>232</x>
+        <y>10</y>
+        <width>31</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhMultiLine</set>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab2_label_stock_name_36">
+      <property name="geometry">
+       <rect>
+        <x>275</x>
+        <y>13</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>손절</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="tb1_textEdit_sell_lose_rate">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>10</y>
+        <width>31</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhMultiLine</set>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tb1_textEdit_sell_win_lose_save">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>매도기준 저장</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tb1_pushButton_stock_searh_handle">
+      <property name="geometry">
+       <rect>
+        <x>228</x>
+        <y>50</y>
+        <width>110</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>대상 종목 재조회</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_stock_invest_info">
+     <attribute name="title">
+      <string>투자정보</string>
+     </attribute>
+     <widget class="QLabel" name="tab2_label_stock_order_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주문정보</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="tb2_textBrowser_stock_send_order_info">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>301</width>
+        <height>251</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tb3_pushButton_stock_send_order_info">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>10</y>
+        <width>91</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주문정보 조회</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="tab3_comboBox_trading_select">
+      <property name="geometry">
+       <rect>
+        <x>72</x>
+        <y>10</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>0:전체</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1:매도</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2:매수</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="tab3_comboBox_conclusion_select">
+      <property name="geometry">
+       <rect>
+        <x>233</x>
+        <y>10</y>
+        <width>91</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>0:전체</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1:미체결</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2:체결</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="tab3_label_stock_order_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>매매구분</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab3_label_stock_order_5">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>10</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>체결구분</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="tb3_textEdit_search_stock_code">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>9</y>
+        <width>81</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhDigitsOnly</set>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Gulim'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab3_label_stock_order_6">
+      <property name="geometry">
+       <rect>
+        <x>338</x>
+        <y>11</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>종목코드</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tb2_pushButton_stock_balance_info">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>50</y>
+        <width>70</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>잔고조회</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="tb2_textBrowser_stock_balance_info">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>80</y>
+        <width>351</width>
+        <height>251</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab2_label_stock_balance_info">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>50</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>잔고조회</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_9">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>80</y>
+        <width>329</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>투자 수익률 정보</string>
+      </property>
+      <widget class="QTextEdit" name="tb2_textEdit_stock_total_rate">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>141</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhDigitsOnly</set>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="tab2_label_stock_name_29">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>21</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>투자 수익률</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="tab2_label_stock_name_30">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>51</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>투자 수익금액</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="tb2_textEdit_stock_total_price">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>50</y>
+         <width>141</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhDigitsOnly</set>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>150</y>
+         <width>301</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="tab2_label_stock_name_32">
+       <property name="geometry">
+        <rect>
+         <x>12</x>
+         <y>130</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>목표 수익률 도달</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGraphicsView" name="graphicsView">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>390</y>
+        <width>1041</width>
+        <height>281</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab2_label_stock_name_33">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>360</y>
+        <width>90</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>그래프</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>배치처리</string>
+     </attribute>
+     <widget class="QPushButton" name="tb4_pushButton_stock_high_per">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>10</y>
+        <width>111</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>고저PER 데이타</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="tab4_comboBox_hight_per">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>111</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>1:저PER</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2:고PER</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3:저PBR</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>4:고PBR</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>5:저ROE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>6:고ROE</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_history">
+     <attribute name="title">
+      <string>히스토리</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_stock_price">
+     <attribute name="title">
+      <string>주식 [매수 / 매도]</string>
+     </attribute>
+     <widget class="QPushButton" name="tb2_pushButton_stock_search">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>40</y>
+        <width>121</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>종목 현자 가검색</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="tb2_textEdit_search_stock_date">
+      <property name="geometry">
+       <rect>
+        <x>213</x>
+        <y>9</y>
+        <width>81</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhDigitsOnly</set>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Gulim'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="tb_textEdit_search_stock_modif">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>21</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhDigitsOnly</set>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Gulim'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="tb2_textEdit_search_stock_code">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>9</y>
+        <width>71</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhDigitsOnly</set>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Gulim'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;005880&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tb2_pushButton_all_stock_data">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>530</y>
+        <width>121</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>종목 가격 전체정보</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tb2_tableWidget_stock_price_res_view">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>560</y>
+        <width>681</width>
+        <height>131</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tb2_tableWidget_stock_info_res_view">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>351</width>
+        <height>81</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab2_label_stock_name">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주식명칭</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab2_label_stock_order">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>160</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주문 출력</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab2_label_stock_name_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>430</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>잔고 출력</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="tb2_textBrowser_stock_send_order_order">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>351</width>
+        <height>211</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="tb2_textBrowser_stock_send_order_balance">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>460</y>
+        <width>351</width>
+        <height>231</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab2_label_stock_name_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>11</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>종목코드</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tab2_label_stock_name_4">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>11</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>조회일자</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>60</y>
+        <width>329</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>매수</string>
+      </property>
+      <widget class="QPushButton" name="tb2_pushButton_stock_send_order_hand">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>75</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>매수주문</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="tb2_textEdit_stock_send_order_hand_price">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>80</y>
+         <width>141</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhDigitsOnly</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tb2_pushButton_stock_send_order">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>20</y>
+         <width>80</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="whatsThis">
+        <string extracomment="06:최유리지정가"/>
+       </property>
+       <property name="text">
+        <string>자동매수주문</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="tab2_label_stock_name_6">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>82</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>매수가</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="tab2_label_stock_name_16">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>82</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>수량</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="tb2_textEdit_stock_send_order_hand_quantity">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>80</y>
+         <width>71</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhDigitsOnly</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QTextEdit" name="tb2_textEdit_stock_deposit_view">
+      <property name="geometry">
+       <rect>
+        <x>935</x>
+        <y>10</y>
+        <width>121</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhMultiLine</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tb2_pushButton_stock_deposit">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>9</y>
+        <width>75</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>예수금</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>60</y>
+        <width>341</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>매도</string>
+      </property>
+      <widget class="QPushButton" name="tb2_pushButton_stock_send_order_hand_sell">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>21</y>
+         <width>75</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>매도주문</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="tb2_textEdit_stock_send_order_hand_sell_price">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>80</y>
+         <width>141</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhDigitsOnly</set>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="tb2_textEdit_stock_send_order_hand_sell_quantity">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>80</y>
+         <width>71</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhDigitsOnly</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tb2_pushButton_stock_send_order_sell">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>21</y>
+         <width>80</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="whatsThis">
+        <string extracomment="06:최유리지정가"/>
+       </property>
+       <property name="text">
+        <string>자동매도주문</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="tab2_label_stock_name_9">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>82</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>수량</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="tab2_label_stock_name_10">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>82</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>매도가</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>220</y>
+        <width>201</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>취소</string>
+      </property>
+      <widget class="QPushButton" name="tb2_pushButton_stock_send_order_hand_cancel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>75</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>매수취소</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tb2_pushButton_stock_send_order_hand_sell_cancel">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>20</y>
+         <width>75</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>매도취소</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="tb2_textEdit_stock_send_order_hand_no_cancel">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>90</y>
+         <width>101</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhDigitsOnly</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="tab2_label_stock_name_5">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>91</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>주문번호</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="tb2_textEdit_stock_send_order_hand_cancel_quantity">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>60</y>
+         <width>71</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhDigitsOnly</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="tab2_label_stock_name_17">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>62</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>수량</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>220</y>
+        <width>329</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>정정</string>
+      </property>
+      <widget class="QPushButton" name="tb2_pushButton_stock_send_order_hand_modif">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>매수주문정정</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="tb2_textEdit_stock_send_order_hand_modif_price">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>80</y>
+         <width>141</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhDigitsOnly</set>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="tb2_textEdit_stock_send_order_hand_modif_quantity">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>80</y>
+         <width>71</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhDigitsOnly</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="tab2_label_stock_name_13">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>82</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>수량</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="tab2_label_stock_name_14">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>82</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>정정가</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tb2_pushButton_stock_send_order_hand_modif_sell">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>20</y>
+         <width>91</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>매도주문정정</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="tb2_textEdit_stock_send_order_no_modif">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>50</y>
+         <width>101</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhDigitsOnly</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="tab2_label_stock_name_11">
+       <property name="geometry">
+        <rect>
+         <x>62</x>
+         <y>51</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>주문번호</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_login_info">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>750</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>표시위치</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_account_info">
+    <property name="geometry">
+     <rect>
+      <x>927</x>
+      <y>3</y>
+      <width>139</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1091</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
